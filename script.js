@@ -5,13 +5,13 @@ class Rectangle {
 		this.height = height;
 	}
 	get width(){
-		return width;
+		return this.width;
 	}
 	get height(){
-		return height;
+		return this.height;
 	}
 	getarea(){
-		return width*height;
+		return this.width*this.height;
 	}
 	
 }
@@ -29,3 +29,15 @@ class Square extends Animal {
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
+
+
+
+
+
+
+
+
+
+
+
+
